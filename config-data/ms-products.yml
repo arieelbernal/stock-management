@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: ms-products
+  datasource:
+    url: jdbc:mysql://localhost:3306/products_test?useSSL=false&serverTimezone=UTC
+    username: db-connector
+    password: 654321test?
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+springdoc:
+  api-docs:
+    path: /api-docs
