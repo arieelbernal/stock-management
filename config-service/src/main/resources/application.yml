@@ -1,16 +1,22 @@
 server:
-  port: 8091
+  port: 8080
 
 spring:
+  application:
+    name: config-service
   cloud:
     config:
       server:
         git:
           uri: https://github.com/arieelbernal/stock-management.git
           searchPaths: config-data
-          username: ${GIT_USER}
+          username: ${GIT_USERNAME}
           password: ${GIT_PASSWORD}
+          clone-on-start: true
+          default-label: develop
   security:
     user:
       name: root
       password: secret
+  profiles:
+    active: dev
