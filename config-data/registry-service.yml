@@ -1,6 +1,10 @@
 server:
   port: 8099
 
+spring:
+  application:
+    name: ms-products
+
 eureka:
   instance:
     hostname: localhost

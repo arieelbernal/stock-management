@@ -1,0 +1,6 @@
+spring:
+  aplication:
+    name: registry-service
+  cloud:
+    config:
+      enabled: true
