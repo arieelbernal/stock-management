@@ -11,4 +11,4 @@ eureka:
   client:
     registerWithEureka: false
     fetchRegistry: false
-    serviceUrl: http://${eureka.instance.hostname}:${server.port}/eureka
+    service-url: http://${eureka.instance.hostname}:${server.port}/eureka

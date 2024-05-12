@@ -1,4 +1,4 @@
-package com.example.registryservice;
+package com.arda.registryservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,4 +1,4 @@
-package com.example.registryservice;
+package com.arda.registryservice;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
